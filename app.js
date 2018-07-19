@@ -1,4 +1,4 @@
-const apiURL = ('http://api.adviceslip.com/advice')
+const apiURL = ('https://galvanize-cors.herokuapp.com/http://api.adviceslip.com/advice')
 
 button = document.getElementsByTagName('button')[0]
 button.addEventListener('click', advice)
